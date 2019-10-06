@@ -44,10 +44,16 @@
 				<version>1.0.0</version>
 				<executions>
 					<execution>
-						<id>build-image</id>
 						<phase>package</phase>
 						<goals>
 							<goal>build</goal>
+						</goals>
+					</execution>
+					<execution>
+						<id>tag-image</id>
+						<phase>package</phase>
+						<goals>
+							<goal>tag</goal>
 						</goals>
 					</execution>
 				</executions>
