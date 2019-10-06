@@ -56,7 +56,7 @@
 							<goal>tag</goal>
 						</goals>
 						<configuration>
-							<image>${project.artifactId}:${project.version}</image>
+							<image>${project.artifactId}:latest</image>
 							<newName>${project.artifactId}:${project.version}</newName>
 						</configuration>
 					</execution>
