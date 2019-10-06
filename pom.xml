@@ -55,6 +55,10 @@
 						<goals>
 							<goal>tag</goal>
 						</goals>
+						<configuration>
+							<image>${project.artifactId}:${project.version}</image>
+							<newName>${project.artifactId}:${project.version}</newName>
+						</configuration>
 					</execution>
 				</executions>
 				<configuration>
